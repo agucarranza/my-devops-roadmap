@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Fortune</title>
+    {% load bootstrap5 %}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+</head>
+<body>
+
+<div class="container mt-5">
+    <h1 class="mb-4">Random Fortune</h1>
+
+    <!-- Display a random fortune -->
+    <div class="mb-4">
+        <h3>Your fortune for today:</h3>
+        <h2>{{ random_fortune }}</h2>
+    </div>
+
+    <!-- Form to add a new fortune -->
+    <div>
+        <form method="post" action="{% url 'add_fortune' %}" class="mb-4">
+            {% csrf_token %}
+            <div class="mb-3">
+                <label for="new_fortune" class="form-label">Add a New Fortune:</label>
+                <textarea id="new_fortune" name="new_fortune" rows="3" class="form-control" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

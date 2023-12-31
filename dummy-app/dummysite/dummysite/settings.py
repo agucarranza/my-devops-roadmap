@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "fortune.apps.FortuneConfig"
+    "fortune.apps.FortuneConfig",
+    "bootstrap5"
 ]
 
 MIDDLEWARE = [
