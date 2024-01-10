@@ -1,0 +1,105 @@
+{
+  "fortune": [
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "N": "1" },
+          "uuid": { "S": "57b73595-baee-45f4-a823-57dbe166dc65" },
+          "cita": { "S": "La vida es aquello que te va sucediendo mientras te empeñas en hacer otros planes." },
+          "autor": { "S": "John Lennon" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "N": "2" },
+          "uuid": { "S": "3b2e326d-e6c8-4932-93c5-597d8d75539e" },
+          "cita": { "S": "Sólo se vive una vez, pero si lo haces bien, una vez es suficiente." },
+          "autor": { "S": "Mae West" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "N": "3" },
+          "uuid": { "S": "4c8f162a-2dcf-4b62-8f2f-d1dd4b167c21" },
+          "cita": { "S": "No hay nada más poderoso que una idea cuyo tiempo ha llegado." },
+          "autor": { "S": "Víctor Hugo" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "N": "4" },
+          "uuid": { "S": "1a5e72f8-0f8f-4ba3-bc18-01511b14c3a9" },
+          "cita": { "S": "El único modo de hacer un gran trabajo es amar lo que haces." },
+          "autor": { "S": "Steve Jobs" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "N": "5" },
+          "uuid": { "S": "e92a8c7f-8582-4874-b23b-147228a9a724" },
+          "cita": { "S": "El éxito es la suma de pequeños esfuerzos repetidos día tras día." },
+          "autor": { "S": "Robert Collier" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "N": "6" },
+          "uuid": { "S": "75a12753-b330-4b58-a365-6a8146ab12b9" },
+          "cita": { "S": "La educación es el arma más poderosa que puedes usar para cambiar el mundo." },
+          "autor": { "S": "Nelson Mandela" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "N": "7" },
+          "uuid": { "S": "9f75b896-7ae3-4c02-aaec-8f9d0d4fc38f" },
+          "cita": { "S": "Si buscas resultados distintos, no hagas siempre lo mismo." },
+          "autor": { "S": "Albert Einstein" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "N": "8" },
+          "uuid": { "S": "6da0790d-2c47-428e-92f2-8b4f7031df9e" },
+          "cita": { "S": "El futuro pertenece a quienes creen en la belleza de sus sueños." },
+          "autor": { "S": "Eleanor Roosevelt" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "N": "9" },
+          "uuid": { "S": "b786c418-d7c5-4694-8184-bd08fb50f837" },
+          "cita": { "S": "Nunca es tarde para ser lo que podrías haber sido." },
+          "autor": { "S": "George Eliot" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "N": "10" },
+          "uuid": { "S": "4e91f35c-6463-48e7-bba3-3c20e75f657a" },
+          "cita": { "S": "El conocimiento es poder." },
+          "autor": { "S": "Francis Bacon" }
+        }
+      }
+    }
+  ]
+}
+
